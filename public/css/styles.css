@@ -1,0 +1,261 @@
+body { 
+	max-width: 1300px; 
+  height: 1366px;
+	margin: -25px auto !important; 
+	float: none !important; 
+}
+.top-header{
+  background-color: white ;
+
+}
+.logo img{
+       width: 235px;
+    height: 210px;
+}
+.top-header{
+    padding-bottom: 35px;
+    display: flex;
+}
+.name-company img{
+  padding-left: 60px;
+    text-align: center;
+}
+form.example {
+    display: contents;
+}
+.border-search .dropdown{
+  display: flex;
+  margin: 15px  0;
+}
+#dropdownMenuButton1{
+  margin-right: 24px;
+}
+.border-search{
+  background-color: #ffce2b;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 20px 41px;
+    border: 5px solid  #6c757d;
+    text-align: center;
+    
+}
+.top-header li{
+    list-style: none;
+}
+.top-header a{
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+div#navbarNav, .bg-categories  {
+  background: #ffce2b;
+}
+
+.dropdown {
+  display: flex;
+}
+#trangchu, #mua-bds, #ban-bds, #thue-bds, #duan, #tuyendung, #lienhe{
+  font-size: 16px;
+  padding: 14px 5px;
+  text-align: center;
+}
+#trangchu:hover, #mua-bds:hover, #ban-bds:hover, #thue-bds:hover, #duan:hover, #tuyendung:hover, #lienhe:hover{
+  color: rgb(238, 23, 41);
+}
+
+.categories #lienhe{
+  border-right: none;
+}
+input[type="text"]{
+  font-size: 16px;
+  padding: 6px 0px;
+
+}
+.example button{
+  padding: 6px 8px;
+  border-radius: 5px;
+}
+.service {
+  text-align: center;
+  display: flex;
+}
+
+.introduce, .bank, .news {
+  border: 2px solid grey;
+  padding: 0 10px;
+  margin: 52px 11px 120px 5px;
+}
+.service a{
+  text-transform:uppercase;
+}
+/* categories */
+.bg-categories a{
+  color: black;
+  text-decoration: none;
+  background: #ffce2b;
+  padding: 10px;
+    font-size: 25px;
+}
+.bg-categories a:hover {
+  color: grey;
+
+}
+a.nav-link.active,a.nav-link {
+    margin: 0 25px;
+}
+/* Bds ban */
+
+.sell-bds .container{
+  background: white;
+}
+.sell-bds h1{
+  text-transform:uppercase;
+  color: #222;
+    display: flex;
+    font-size: 17px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 1.41;
+    margin: 0;
+    padding: 12px 12px 15px;
+}
+nav.navbar.navbar-expand-lg.bg-categories {
+  border: 1px solid grey;
+}
+.bds-ban{
+  display: flex;
+}
+.bds1{
+  border: 1px solid rgb(199, 196, 196);
+  padding: 13px;
+}
+.bds1:hover{
+  transform: scale(1, 1.1);
+    transition: all 0.5s ease 0s;
+}
+.logo-mayanh img{
+  position: relative;
+    left: 6px;
+    top: -265px;
+    width: 30px;
+    height: 30px;
+}
+.logo-mayanh a{
+  text-decoration: none;
+
+}
+.logo-mayanh p{
+  font-size: 14px;
+  text-align: inherit;
+}
+.logo-mayanh a span{
+  color: white;
+      position: relative;
+    top: -263px;
+    left: -18px;
+    font-weight: 700;
+}
+.more-post{
+  padding-top: 20px;
+  text-align: center;
+}
+.area {
+  font-size: 16px;
+  color: #9b9b9b;
+}
+.price {
+  font-weight: 700;
+  color: #d0021b;
+  font-size: 17px;
+}
+.more-post a{
+  padding: 15px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 17px;
+  color: #38699f;
+  border: 3px solid #38699f;
+}
+.address{
+  padding-top: 5px;
+  line-height: 25px;
+}
+
+/* Owl carousel */
+
+.fsale img{
+  object-fit: fill;
+  height: 600px;
+}
+.item a{
+  text-decoration: none;
+}
+
+button.owl-next {
+  position: relative;
+  left: 45%;
+}
+button.owl-prev {
+  position: relative;
+  right: 45%;
+}
+.owl-theme .owl-nav {
+  position: relative;
+  top: -320px;
+}
+
+.owl-nav {
+  color: white;
+  font-size: 35px;
+}
+.owl-nav button{
+  padding: 10px;
+  
+}
+/* move-top */
+.move {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+}
+.move img
+{
+  background-color: white;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+}
+.fa-angle-left:before{
+  content: "\f104";
+  padding: 10px;
+  border-radius: 50%;
+}
+.fa-angle-right:before{
+  content: "\f105";
+  padding: 10px;
+  border-radius: 50%;
+}
+/* srcoll */
+.left-srcoll{
+  position: fixed;
+  top: 50%;
+  left: 30px;
+}
+.left-srcoll img{
+  width: 200px;
+  height: 130px;
+}
+.right-srcoll{
+  position: fixed;
+  top: 50%;
+  right: 30px;
+}
+.right-srcoll img{
+  width: 200px;
+  height: 140px;
+}
+
